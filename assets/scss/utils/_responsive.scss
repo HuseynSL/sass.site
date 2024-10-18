@@ -1,0 +1,19 @@
+@media only screen and (max-width: 576px){
+    .navbar{
+        ul{
+            display: none;
+        }
+        i{
+            display: block;
+        }
+        display: none;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+.header{
+    position: fixed;
+
+    width: 100%;
+    @include dy-flex(flex,space-around,center);
+    ul{
+        @include dy-flex(flex,center,center,10px);
+        color: $text-color;
+        font-size: 20px;
+    }
+}

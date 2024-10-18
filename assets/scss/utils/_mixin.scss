@@ -1,0 +1,6 @@
+@mixin dy-flex($display,$justify,$align,$gap:0px){
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
